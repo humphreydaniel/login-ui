@@ -37,7 +37,6 @@ class _SearchScreenState extends State<LoginScreen> {
               fontSize: 40,
               fontWeight: FontWeight.bold,
               color: const Color(0xff000000),
-              
             ),
             textAlign: TextAlign.left,
           ),
@@ -235,13 +234,9 @@ class _SearchScreenState extends State<LoginScreen> {
           SliverToBoxAdapter(
             child: Container(
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.only(
-                     
-                      ),
+                  borderRadius: BorderRadius.only(),
                   gradient: LinearGradient(
-                      colors: <Color>[Color(0xFFdccdb4), Color(0xFFd8c3ab)])
-                  
-                  ),
+                      colors: <Color>[Color(0xFFdccdb4), Color(0xFFd8c3ab)])),
               width: screenWidth,
               height: 25,
               child: Column(
@@ -252,7 +247,6 @@ class _SearchScreenState extends State<LoginScreen> {
                     height: 25,
                     decoration: BoxDecoration(
                       color: Colors.white,
-                      
                       borderRadius: BorderRadius.only(
                         topLeft: const Radius.circular(30.0),
                         topRight: const Radius.circular(30.0),
